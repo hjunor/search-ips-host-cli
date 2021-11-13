@@ -60,7 +60,7 @@ func searchServer(c *cli.Context) error {
 	}
 
 	for _, name := range names {
-		fmt.Println(name)
+		fmt.Println(name.Host)
 	}
 	return nil
 }
